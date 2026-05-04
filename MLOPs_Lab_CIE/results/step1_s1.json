@@ -1,0 +1,22 @@
+{
+    "experiment_name": "windcast-turbine-output-mwh",
+    "models": [
+        {
+            "name": "SVR",
+            "mae": 1.6305498262866052,
+            "rmse": 1.9663586673070308,
+            "r2": -0.2527105931825342,
+            "mape": 18.389801042162084
+        },
+        {
+            "name": "GradientBoosting",
+            "mae": 1.2844292808169366,
+            "rmse": 1.3732293493310836,
+            "r2": 0.3890418958762275,
+            "mape": 15.617906966099406
+        }
+    ],
+    "best_model": "GradientBoosting",
+    "best_metric_name": "rmse",
+    "best_metric_value": 1.3732293493310836
+}

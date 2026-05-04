@@ -1,0 +1,17 @@
+{
+    "health_endpoint": "/health",
+    "predict_endpoint": "/estimate",
+    "port": 8080,
+    "health_response": {
+        "status": "running",
+        "model": "GradientBoosting",
+        "version": "1.0"
+    },
+    "test_input": {
+        "wind_speed_kmph": 37.7,
+        "blade_length_m": 59.5,
+        "altitude_m": 126.6,
+        "humidity_pct": 58.7
+    },
+    "prediction": 9.846283969290669
+}
